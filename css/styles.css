@@ -1,0 +1,48 @@
+/* colors to be reused throughout the css */
+:root {
+    --aqua: #00aeef;
+    --grey: #77787b;
+    --sky: #83deff;
+}
+
+/*content highlight color and background color */
+::selection {
+    background-color: var(--sky);
+    color: var(--grey);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    /*background-color: var(--grey); */
+}
+
+.container {
+    display: flex;
+    background-color: #fff;
+    max-width: 600px;
+    padding: 20px;
+}
+
+/* shared settings for H tags */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0.4rem;
+    color: var(--aqua);
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+/* hero image for header background */
+.head_image {
+    background-image: url("assets/head_back.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
