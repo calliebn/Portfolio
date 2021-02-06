@@ -3,6 +3,7 @@
     --aqua: #00aeef;
     --grey: #77787b;
     --sky: #83deff;
+    --navy: #0f4b69;
 }
 
 /*content highlight color and background color */
@@ -11,38 +12,104 @@
     color: var(--grey);
 }
 
-html {
-    font-size: 62.5%;
-}
+/*html {
+    font-size: 62.5%; 
+}*/
 
 body {
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1.8rem;
     line-height: 1.5;
-    /*background-color: var(--grey); */
-}
-
-.container {
-    display: flex;
-    background-color: #fff;
-    max-width: 600px;
-    padding: 20px;
+    margin: 0 auto;
 }
 
 /* shared settings for H tags */
 h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 0.4rem;
     color: var(--aqua);
     font-weight: 800;
     line-height: 1.2;
+    margin: 0;
+}
+
+/* controls the positionng of the text in the aqua box at the top */
+header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: var(--aqua);
+    padding: 20px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #fff;
+    line-height: 1em;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav p {
+    font-size: 18px;
+    font-weight:400;
+    color: #fff;
+    line-height: 1.5;
+    text-align: right;
+    padding-left: 10px;
+    margin: 0;
+}
+
+nav a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #fff;
+}
+
+nav a:hover {
+    color: var(--grey);
 }
 
 /* hero image for header background */
-.head_image {
-    background-image: url("assets/head_back.jpg");
-    height: 50%;
+.hero-image {
+    display: flex;
+    justify-content: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+} 
+
+.hero-image img {
+    width: 100%;
+    margin: 0 auto;
+    border-bottom: 3px solid var(--aqua);
+}
+
+.hero-text {
+    position: absolute;
+    margin-top: 40px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.hero-text h2 {
+    color: var(--navy);
+    font-size: 24px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.hero-text p {
+    color: var(--navy);
+    font-size: 16px;
+    text-align: center;
 }
