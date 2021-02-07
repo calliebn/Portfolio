@@ -12,15 +12,12 @@
     color: var(--grey);
 }
 
-/*html {
-    font-size: 62.5%; 
-}*/
-
 body {
     font-family: Helvetica, Arial, sans-serif;
-    font-size: 1.8rem;
+    font-size: 18px;
     line-height: 1.5;
     margin: 0 auto;
+    background-color: var(--grey);
 }
 
 /* shared settings for H tags */
@@ -29,6 +26,23 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 800;
     line-height: 1.2;
     margin: 0;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 0;
 }
 
 /* controls the positionng of the text in the aqua box at the top */
@@ -75,7 +89,7 @@ nav a:hover {
     color: var(--grey);
 }
 
-/* hero image for header background */
+/* hero seting for header background and quote */
 .hero-image {
     display: flex;
     justify-content: center;
@@ -83,6 +97,8 @@ nav a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    align-items: center;
+    justify-content: center; 
 } 
 
 .hero-image img {
@@ -97,8 +113,6 @@ nav a:hover {
     width: 80%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center; 
 }
 
 .hero-text h2 {
@@ -112,4 +126,68 @@ nav a:hover {
     color: var(--navy);
     font-size: 16px;
     text-align: center;
+}
+
+/* settings for the body section of the page */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: space-evenly;
+    padding: 20px;
+    width: 60%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    background-color: #fff;
+    padding: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px 0;
+}
+
+section h2 {
+    border-bottom: 2px solid var(--aqua);
+    margin-bottom: 10px;
+}
+
+section img {
+    float: right;
+    max-width: 150px;
+    border: 1px solid var(--aqua);
+    border-radius: 20px 0;
+    margin-left: 10px;
+}
+
+/* setting for large image in the Portfolio section */
+.big img {
+    width: 100%;
+    float: none;
+    max-width: 1200px;
+}
+
+.a:hover {
+    background-color: var(--navy);
+}
+
+footer {
+    background-color: var(--aqua);
+    height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .hero-text {
+        margin-top: 10px;
+    }
+
+    .hero-text h2 {
+        font-size: 18px;
+        margin-bottom: 0;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+        margin: 0;
+    }
 }

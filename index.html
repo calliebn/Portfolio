@@ -4,48 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio of Callie Nipper</title>
+    <!--reset for browsers-->
     <link rel="stylesheet" type="text/css" href="https://meyerweb.com/eric/tools/css/reset/">
+    <!--Main style sheet-->
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
    <header>
     <h1>Callie Nipper</h1>
+        <!--Navigation-->
         <nav>
-        <p>About</p>
-        <p>Projects</p>
-        <p>Contact</p>
-        <p><a href="assets/resume_2021.pdf">Resume</a></p>
-    </div>
+            <p><a href="#About">About</a></p>
+            <p><a href="#Portfolio">Portfolio</a></p>
+            <p><a href="#Contact">Contact</a></p>
+            <p><a href="assets/resume_2021.pdf" target="_blank">Resume</a></p>
         </nav>  
     </header>
 
     <main>
-        <section class="hero-image">
-        <img src="assets/bubble_back.jpg" alt="abstract background image">
-         <div class="hero-text">
-         <h2>The true meaning of life is to plant trees, under whose shade you do not expect to sit.</h2>
-         <p>—Nelson Henderson</p>
-        </div>
-    </section> 
-       
-        <section>
-            <h2>Get to know me</h2>
-            <h3>Hello, my name is Callie. I am a designer/developer from Portland, Oregon </h3>
-            <p>I am an entry-level developer who loves HTML and CSS. With an eye for design, I look for ways to incorporate everyday items into my designs.</p>
-        </section>
+        <!--main image and quote-->
+        <div class="hero-image">
+            <img src="assets/bubble_back.jpg" alt="abstract background image">
+                <div class="hero-text">
+                    <h2>The true meaning of life is to plant trees, under whose shade you do not expect to sit.</h2>
+                    <p>—Nelson Henderson</p>
+                </div>
+        </div> 
+    
+        <div class="wrapper">
+            <!--About Section-->
+            <section>
+                <img src="assets/headshot.jpg" alt="headshot of Callie Nipper">
+                <h2 id="About">Get to know me</h2>
+                <h3>Hello, my name is Callie. I am a developer and graphic designer from Portland, Oregon </h3>
+                <p>I am an entry-level developer who loves HTML and CSS. With an eye for design, I look for ways to incorporate everyday items into my designs.</p>
+            </section>
 
-        <section>
-            <h2>Portfolio</h2>
-            <p>My portfolio contains projects that are made with HTML, CSS and JavaScript.</p>
-        </section>
+            <!--Portfolio Section-->
+            <section>
+                <h2 id="Portfolio">Portfolio</h2>
+                <p>My portfolio contains projects that are made with HTML and CSS.</p>
+                <div class="big">
+                <a href="https://www.lancpa.com/file/callie/" target="_blank"><img src="assets/tuscany.jpg" alt="Screenshot of Discover Tuscany Website"></a>
+            </div>
+            </section>
 
-        <section>
-           <h2>Let's connect</h2> 
-           <p>717.201.6579</p>
-           <p><a href="callie.nipper@gmail.com">callie.nipper@gmail.com</a></p>
-           <p>GitHub Link</p>
-           <p>Linked In</p>
-        </section>
+            <!--Contact Section-->
+            <section>
+                <h2 id="Contact">Let&#8217;s connect</h2> 
+                <p><a href="tel:+1-717-201-6579">717.201.6579</a></p>
+                <p><a href="mailto:callie.nipper@gmail.com">Email</a></p>
+                <p><a href="https://github.com/calliebn">GitHub</a></p>
+                <p><a href="www.linkedin.com/in/callie-nipper-7b20406">Linked In</a></p>
+            </section>
+        </div>  
     </main>
 
     <footer>
