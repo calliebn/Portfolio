@@ -11,9 +11,9 @@ I think that I hit all of the requirements, but I ran out of time before I could
 
 Thanks for your feedback!
 
-GitHub link
+GitHub link: https://github.com/calliebn/Portfolio
 
-Deployable link
+Deployable link: https://calliebn.github.io/Portfolio/
 
 
 Header Image credit
