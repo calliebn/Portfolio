@@ -7,7 +7,7 @@ The page should resize to fit the device that it is being viewed on. It contains
 
 ![screenshot of site](assets/screenshot_portfolio.jpg)
 
-I think that I hit all of the requirements, but I ran out of time before I could figure out how to get my 2 smaller images to float next to each other in the portfolio section.
+I think that I hit all of the requirements, but please let me know if there are areas that I can improve.
 
 Thanks for your feedback!
 
