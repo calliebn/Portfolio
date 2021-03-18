@@ -1,7 +1,7 @@
 # Portfolio
 A portfolio of my work
 
-A responsive portfolio containing my resume and links to a few projects that I created using HTML and CSS.
+A responsive portfolio containing my resume and links to a few projects that I created using HTML, CSS and JavaScript.
 
 The page should resize to fit the device that it is being viewed on. It contains both internal anchor links as well as links to websites that I created previously.
 

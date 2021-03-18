@@ -2,6 +2,7 @@
 :root {
     --aqua: #00aeef;
     --grey: #77787b;
+    --light: lightgrey;
     --sky: #83deff;
     --navy: #0f4b69;
 }
@@ -17,7 +18,7 @@ body {
     font-size: 18px;
     line-height: 1.5;
     margin: 0 auto;
-    background-color: var(--grey);
+    background-color: var(--light);
 }
 
 /* shared settings for H tags */
