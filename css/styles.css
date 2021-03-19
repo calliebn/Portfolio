@@ -188,6 +188,7 @@ section a:visited {
     backface-visibility: hidden;
     float: none;
     max-width: 1200px;
+    margin: 0;
 }
 
 .middle {
@@ -216,31 +217,26 @@ section a:visited {
 }
 
 /* controls the small images in the portfolio section */
+.small-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .small-container {
     position: relative;
-    width: 40%;
+    width: 48%;
 }
 
 .small-image {
     opacity: 1;
-    display: block;
     width: 100%;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    float: left;
     max-width: 1200px;
-}
-
-.small-right {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-    float: right;
-    max-width: 1200px;
+    margin: 0;
 }
     
 .smallmiddle {
