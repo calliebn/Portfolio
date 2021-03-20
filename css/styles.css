@@ -179,6 +179,7 @@ section a:visited {
     position: relative;
     width: 100%;
 }
+
 .image {
     opacity: 1;
     display: block;
@@ -200,6 +201,7 @@ section a:visited {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%)
 }
+
 .container:hover .image {
     opacity: 0.3;
 }
@@ -247,7 +249,7 @@ section a:visited {
     left: 50%;
     transform: translate(-50%, -50%);
      -ms-transform: translate(-50%, -50%)
-    }
+    } 
 
 .small-container:hover .image {
     opacity: 0.3;
@@ -275,5 +277,32 @@ footer {
     .hero-text p {
         font-size: 14px;
         margin: 0;
+    }
+
+    .wrapper {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .wrapper {
+        padding: 10px;
+        width: 90%;
+    }
+
+    section img {
+        float: none;
+        justify-content: center;
+    }
+
+    .small-projects {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-between;
+    }
+    
+    .small-container {
+        position: relative;
+        width: 100%;
     }
 }
