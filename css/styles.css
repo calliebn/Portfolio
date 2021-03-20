@@ -19,6 +19,7 @@ body {
     line-height: 1.5;
     margin: 0 auto;
     background-color: var(--light);
+    height: 100%;
 }
 
 /* shared settings for H tags */
@@ -94,22 +95,16 @@ nav a:hover {
 .hero-image {
     display: flex;
     justify-content: center;
+    background: url("../assets/bubble_back.jpg") no-repeat;
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
     align-items: center;
-    justify-content: center; 
+    width: 100%;
+    padding: 30px 0;
+    border-bottom: 3px solid var(--aqua);
 } 
 
-.hero-image img {
-    width: 100%;
-    margin: 0 auto;
-    border-bottom: 3px solid var(--aqua);
-}
-
 .hero-text {
-    position: absolute;
     margin-top: 40px;
     width: 80%;
     display: flex;
